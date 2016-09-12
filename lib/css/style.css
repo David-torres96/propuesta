@@ -1,0 +1,70 @@
+
+
+ #nav{
+	height: 100px !important;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+#nav_uno{
+	color: white;
+	background-color:#FF6600 !important;
+	height: 100%;
+}
+
+#nav_uno .navbar-brand{
+	height: 100%;
+}
+
+
+#nav_dos{
+	background-color:#eeeeee !important;
+	color: #7f7f79 !important;
+}
+
+
+
+#nav_dos a{
+	color: #7f7f79 !important;
+}
+
+#main-content {
+	background: #dbdbdb;
+	width: 90%;
+	max-width: 1145px;
+	margin: 20px auto;
+	/*box-shadow: 0 0 10px rgba(0,0,0,.1);*/
+}
+
+#u5660_img
+{
+	margin-left: 30px;
+    margin-top: -9px;
+}
+
+
+section { 
+	height: 150%; 
+	width: 100%; 
+}
+
+footer{
+	position: relative;
+	background-color: #ff6600;
+	padding-top: 10px;
+	height: 11%;
+	color: white;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: white; 
+	font-size: 2em;
+	line-height: 1.5em;
+	padding-top: 150px; /* Relleno superior igual a la altura de la cabecera*/
+}
