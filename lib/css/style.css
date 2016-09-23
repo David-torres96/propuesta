@@ -1,6 +1,4 @@
-
-
- #nav{
+#nav{
 	height: 100px !important;
 	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
 	left: 0; /* Posicionamos la cabecera al lado izquierdo */
@@ -45,9 +43,9 @@
 }
 
 
-section { 
-	height: 150%; 
-	width: 100%; 
+section {
+	height: 150%;
+	width: 100%;
 }
 
 footer{
@@ -63,7 +61,7 @@ body {
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #666;
-	background: white; 
+	background: white;
 	font-size: 2em;
 	line-height: 1.5em;
 	padding-top: 150px; /* Relleno superior igual a la altura de la cabecera*/
