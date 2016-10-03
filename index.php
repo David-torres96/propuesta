@@ -1,6 +1,6 @@
 <?php
 
-	$page = isset($_GET['page']) ? $_GET['page'] : 'Inicio';
+	$page = isset($_GET['page']) ? $_GET['page'] : 'Login';
 	$accion = null;
 	$page_array = explode(".", $page);
 	

@@ -6,9 +6,7 @@
 			include('views/Paquetes/Basicos/Usuario/regritrarUsuario.html');
 			include('views/Pie.html');
 		}else{
-			include_once('controllers/Inicio.Controller.php');
+			include_once('controllers/Login.Controller.php');
 		}
 	
-	
-
 ?>
