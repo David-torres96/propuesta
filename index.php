@@ -1,11 +1,19 @@
 <?php
 
-	$accion = isset($_GET['accion']) ? $_GET['accion'] : 'inicio';
+	$page = isset($_GET['page']) ? $_GET['page'] : 'Login';
+	$accion = null;
+	$page_array = explode(".", $page);
+	
+	if(is_array($page_array) && sizeof($page_array) == 2){
+		$page = $page_array[0];
+		$accion = $page_array[1];
+	}
 
-	if(is_file('controllers/'.$accion. '.Controller.php')){
-		include_once('controllers/'.$accion. '.Controller.php');
-	}else{
-		include_once('controllers/error.Controller.php');
+	if(is_file('controllers/'.$page. '.Controller.php')){
+		include_once('controllers/'.$page. '.Controller.php');
+	}
+	else{
+		include_once('controllers/Error.Controller.php');
 	}
 
 ?>
