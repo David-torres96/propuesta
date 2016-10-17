@@ -1,5 +1,5 @@
 <?php
-	include('views/Cabecera.html');
-	include('views/Paquetes/Basicos/Empresa/CargueDocumentos.html');
-	include('views/Pie.html');
+	include('views/Cabecera.php');
+	include('views/Paquetes/Basicos/Empresa/CargueDocumentos.php');
+	include('views/Pie.php');
 ?>

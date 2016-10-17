@@ -1,6 +1,6 @@
 <?php
-	include('views/cabeceraLogout.html');
-	include('views/login.html');
-	include('views/Pie.html');
+	include('views/cabeceraLogout.php');
+	include('views/login.php');
+	include('views/Pie.php');
 
 ?>

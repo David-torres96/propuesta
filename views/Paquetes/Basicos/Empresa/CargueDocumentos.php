@@ -1,36 +1,35 @@
 <div class="container" >
    <br/>
-   <div class="row" style="text-align:center">"Registra tus documentos para hacer uso de todas las funciones de la pagina"</div>
+   <div class="row" id="titulo">"Registra tus documentos para hacer uso de todas las funciones de la pagina"</div>
    <br/>
-   <div class="row"  style="width:100%;height:100%;">
+   <div class="row contenido"  >
       <div class="row " >
          <div class="col-md-1O col-xs-offset-4 "  >
             <ul  class="nav nav-pills" >
                <li>
-                   <!--style="background:#A2A1A7;"-->
-                <a  href="#1a" data-toggle="tab" style=" background-color: #A2A1A7 !important;" ><font color="white">Administrar Perfiles</font></a>
+                <a  href="#1a" data-toggle="tab" id="aurl"  ><font color="white">Administrar Perfiles</font></a>
                </li>
                <li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
-               <li ><a href="#2a" data-toggle="tab" style=" background-color: #A2A1A7 !important;"><font color="white">Administrar Datos de la cuenta</font></a>
+               <li ><a href="#2a" data-toggle="tab" id="aurl" ><font color="white">Administrar Datos de la cuenta</font></a>
                </li>
-               <li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
-               <li ><a href="#3a" data-toggle="tab" style=" background-color: #A2A1A7 !important;"><font color="white">Adjuntar Documentos</font></a>
+               <li>&nbsp; &nbsp; &nbsp; &nbsp;</li>
+               <li ><a href="#3a" data-toggle="tab" id="aurl" ><font color="white">Adjuntar Documentos</font></a>
                </li>
             </ul>
          </div>
       </div>
       <div class="row">
-         <div class="row col-lg-offset-1" style="width:90%;background:#EDEDED;background-color:#EDEDED; height:90%;"  >
+         <div class="row col-lg-offset-1" id="contenidogris"   >
              <div class="col-md-3"  >CARGA DE DOCUMENTOS</div>
-            <div class=" col-md-6  tab-content clearfix"  style="background:#EDEDED;" >
+            <div class=" col-md-6  tab-content clearfix"  id="contenido-tabs"  >
 
                   <div class="tab-pane " id="1a">
-                      <div class="col-md-4 "  style="height:82%; width:33%; float:center; " >
+                      <div class="col-md-4 " id="primertab" >
                         <h3>Content's background color is the same for the tab</h3>
                        </div>
                </div>
                <div class="tab-pane " id="2a" >
-                  <div class="col-md-4 "    style="height:82%; width:36%;" >
+                  <div class="col-md-4 "  id="tab-container"   >
                      <label class="lbl_select">
                         <select>
                            <option selected> Select Box </option>
@@ -57,14 +56,13 @@
                   </div>
                </div>
                <div class="tab-pane " id="3a">
-                  <div class="col-md-4 " style="height:82%; width:33%;" >
+                  <div class="col-md-4 "  id="tab-container2" >
                      <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
                   </div>
                </div>
             </div>
-             <div class="col-md-3 "  >Sube tus documentos para una pequeña verificación de datos, después de esto podrás hacer uso de todas las funciones y estar siempre ENCAMINO</div>
+             <div class="col-md-3"  >Sube tus documentos para una pequeña verificación de datos, después de esto podrás hacer uso de todas las funciones y estar siempre ENCAMINO</div>
          </div>
-
       </div>
    </div>
 </div>
